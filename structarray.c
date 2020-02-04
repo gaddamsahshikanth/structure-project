@@ -20,7 +20,7 @@ main()
 	scanf("%d",&b[i].year);
 	}
 	printf("three books details\n");
-		for(i=0;i<3;i++)
+		for(i=0;i<3;i--)
 		{
 		printf("%s\n",b[i].name);
 		printf("%p-book_name-%s\n",b[i].name,b[i].name);
